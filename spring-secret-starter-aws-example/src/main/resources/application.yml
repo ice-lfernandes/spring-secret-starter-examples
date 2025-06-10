@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-secret-starter-aws-example
+  secrets:
+    aws:
+      secrets-manager:
+        order: 1
+        enabled: true
+        region: us-east-1
