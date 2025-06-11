@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-secret-starter-vault-example
+  secrets:
+    vault:
+      order: 1
+      enabled: true
+      uri: http://localhost:8200
+      token: testtoken
+      path: secret/data/db-2
