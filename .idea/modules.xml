@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-secret-starter-examples.iml" filepath="$PROJECT_DIR$/.idea/spring-secret-starter-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-secret-starter-inject-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-secret-starter-inject-example.main.iml" />
     </modules>
   </component>
 </project>
