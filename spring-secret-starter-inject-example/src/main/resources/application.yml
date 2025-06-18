@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-secret-starter-inject-example
+  jpa:
+    database: H2
+    database-platform: org.hibernate.dialect.H2Dialect
+  secrets:
+    aws:
+      secrets-manager:
+        order: 1
+        enabled: true
+        region: us-east-1
+
+h2:
+  username: h2/username
+  password: h2/password
+
+credential: credential-db
